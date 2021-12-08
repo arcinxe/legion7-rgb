@@ -1,0 +1,14 @@
+{
+  "name": "hid-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arcin",
+  "license": "ISC",
+  "dependencies": {
+    "node-hid": "^2.1.1"
+  }
+}
