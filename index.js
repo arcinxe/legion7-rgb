@@ -23,7 +23,8 @@ if (deviceInfo) {
     for (let i = 0; i <= 200; i++) {
         console.log(`trying write ${i}/200`)
         let values = packetsData.packets[i % 4]
-        device.sendFeatureReport(values)
+    console.log("values to write", values, values.length)
+    device.sendFeatureReport(values)
         console.log(`written data ${i}/200`, values)
     }
 }
